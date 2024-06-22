@@ -1,0 +1,21 @@
+{
+  "name": "letter_boxed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@dagrejs/graphlib": "^2.2.2",
+    "trie-search": "^2.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
